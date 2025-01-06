@@ -302,7 +302,7 @@
                 !e.connected || n || localStorage.getItem("accessToken") || e.signPersonalMessage({
                     message: h
                 }).then(e => (i(!0),
-                u.A.post("https://api.dolphinagent.com/users/login", {
+                u.A.post("https://api.Wolfagent.com/users/login", {
                     signature: e.signature,
                     message: "Dola Staking Login"
                 }))).then(e => {
@@ -385,17 +385,13 @@
                 label: "HOME",
                 href: "/"
             }, {
-                label: "STAKING",
-                href: "/staking",
-                info: "Maximize rewards for $DOLA holders. Stake to unlock exclusive airdrops from Dolphin Agent and its partners."
-            }, {
                 label: "LAUNCHPAD",
-                href: "/launchpad",
-                info: "Stay ahead in GameFi. Detect economic anomalies and access real-time updates."
+                href: "/",
+                info: "Stay ahead in GameFi. Detect economic anomalies and access real-time updates. (COMMING SOON)",
             }, {
                 label: "ECOSYSTEM",
-                href: "/ecosystem",
-                info: "Building a precise, transparent, and high-performing AI Ecosystem."
+                href: "/",
+                info: "Building a precise, transparent, and high-performing AI Ecosystem. (COMMING SOON)"
             }];
             return (0,
             r.jsxs)("div", {
@@ -520,23 +516,30 @@
                 className: "fixed bottom-0 left-0 flex gap-8 text-sm justify-center text-primary-neon-footer py-5 footer w-full",
                 children: [(0,
                 r.jsx)(i(), {
-                    href: "https://x.com/Dolphin_Agent",
+                    href: "link_x",
                     target: "_blank",
                     children: "X"
                 }), (0,
                 r.jsx)(C, {}), (0,
                 r.jsx)(i(), {
-                    href: "https://t.me/DolphinAgent",
+                    href: "link_tele",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: "TELEGRAM"
                 }), (0,
                 r.jsx)(C, {}), (0,
                 r.jsx)(i(), {
-                    href: "https://docs.dolphinagent.com/",
+                    href: "link_docs",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: "DOCS"
+                }), (0,
+                    r.jsx)(C, {}), (0,
+                    r.jsx)(i(), {
+                        href: "link_aigentfi",
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        children: "AIGENTFI"
                 })]
             })
         }
@@ -625,8 +628,8 @@
                     },
                     className: "jsx-e1af098149401900 flex flex-col min-h-screen relative text-cyan-400",
                     children: [(0,
-                    r.jsx)("video", {
-                        src: "media/background.mp4",
+                    r.jsx)("img", {
+                        src: "media/background.png",
                         autoPlay: !0,
                         loop: !0,
                         muted: !0,
