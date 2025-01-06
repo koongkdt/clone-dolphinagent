@@ -516,20 +516,20 @@
                 className: "fixed bottom-0 left-0 flex gap-8 text-sm justify-center text-primary-neon-footer py-5 footer w-full",
                 children: [(0,
                 r.jsx)(i(), {
-                    href: "link_x",
+                    href: "https://x.com/WolfAgent_WAI",
                     target: "_blank",
                     children: "X"
                 }), (0,
                 r.jsx)(C, {}), (0,
                 r.jsx)(i(), {
-                    href: "link_tele",
+                    href: "https://t.me/WolfAgent",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: "TELEGRAM"
                 }), (0,
                 r.jsx)(C, {}), (0,
                 r.jsx)(i(), {
-                    href: "link_docs",
+                    href: "https://global-organization.gitbook.io/wolf-agent",
                     target: "_blank",
                     rel: "noopener noreferrer",
                     children: "DOCS"
