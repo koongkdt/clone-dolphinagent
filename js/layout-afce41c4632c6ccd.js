@@ -536,7 +536,7 @@
                 }), (0,
                     r.jsx)(C, {}), (0,
                     r.jsx)(i(), {
-                        href: "link_aigentfi",
+                        href: "link_token",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         children: "AIGENTFI"
