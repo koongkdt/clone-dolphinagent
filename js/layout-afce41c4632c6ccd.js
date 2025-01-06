@@ -536,7 +536,7 @@
                 }), (0,
                     r.jsx)(C, {}), (0,
                     r.jsx)(i(), {
-                        href: "link_token",
+                        href: "https://aigentfi.com/token/0x977fAB052e1d2538b9C7654D7E669944D9fD6aBb",
                         target: "_blank",
                         rel: "noopener noreferrer",
                         children: "AIGENTFI"
